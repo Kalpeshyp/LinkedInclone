@@ -1,0 +1,390 @@
+        @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Poppins", sans-serif;
+        }
+        
+        body {
+            background-color: lightgray;
+        }
+        
+        nav {
+            background-color: #fff;
+            width: 100%;
+            height: 3rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            overflow: hidden;
+        }
+        
+        nav>div {
+            justify-items: center;
+            align-content: end;
+            text-align: center;
+            gap: 1rem;
+        }
+        
+        .fa-magnifying-glass {
+            opacity: 0;
+        }
+        
+        .left-nav {
+            display: flex;
+        }
+        
+        .left-nav>input {
+            border-radius: 1rem;
+            width: 100%;
+            padding: 0.5rem;
+        }
+        
+        .img>img {
+            height: 1.5rem;
+            border-radius: 50%;
+        }
+        
+        div>i,
+        div>i+h6 {
+            opacity: 0.7;
+        }
+        
+        div>i:hover,
+        div>i+h6:hover {
+            opacity: 1;
+        }
+        
+        main {
+            display: flex;
+            justify-content: space-between;
+            margin: 2rem 10rem 0;
+        }
+        
+        .left-sidebar {
+            width: 24%;
+        }
+        
+        .left-sidebar>div {
+            background-color: #fff;
+            margin-bottom: 0.5rem;
+            border-radius: 0.5rem;
+        }
+        
+        .middle-sidebar {
+            width: 45%;
+        }
+        
+        .middle-sidebar>div {
+            background-color: #fff;
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .right-sidebar {
+            width: 25%;
+        }
+        
+        .self {
+            padding-bottom: 0.5rem;
+        }
+        
+        .self>.left-img {
+            width: 100%;
+            border-radius: 0.5rem 0.5rem 0 0;
+        }
+        
+        .self>.left-img1 {
+            height: 4.5rem;
+            width: 4.5rem;
+            border-radius: 50%;
+            margin-top: -30px;
+            margin-left: 10px;
+        }
+        
+        .self>img {
+            width: 100%;
+        }
+        
+        .summary {
+            font-size: 0.8rem;
+            line-height: 15px;
+        }
+        
+        .ma {
+            margin: 0 5px 0 10px;
+        }
+        
+        .location {
+            font-size: 0.5rem;
+        }
+        
+        .skillected {
+            font-size: 0.6rem;
+        }
+        
+        .logo-skil {
+            height: 0.9rem;
+            width: 0.9rem;
+            border-radius: 50%;
+        }
+        
+        .work {
+            display: flex;
+            margin: 1rem 0.5rem 1rem 0.8rem;
+        }
+        
+        .left-p {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+        }
+        
+        .left-p>a {
+            text-decoration: none;
+        }
+        
+        .left-p>p,
+        .premium-logo>p {
+            font-size: 0.8rem;
+        }
+        
+        .premium-logo {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .premium {
+            padding: 7px;
+        }
+        
+        .premium>p {
+            font-size: 0.8rem;
+            font-weight: 100px;
+        }
+        
+        .div-4 {
+            padding: 0.5rem;
+            display: flex;
+            font-size: 1rem;
+        }
+        
+        .div-4>p {
+            margin-left: 1rem;
+        }
+        
+        .create-post>img {
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+            margin: 1rem 1rem 1rem 1rem;
+        }
+        
+        .create-post {
+            display: flex;
+        }
+        
+        .create-post>input {
+            width: 100%;
+            height: 3rem;
+            border-radius: 2rem;
+            padding: 1rem;
+            margin: 1rem 1rem 1rem 0;
+        }
+        
+        .artical>div {
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            margin: 1rem;
+        }
+        
+        article>div>i {
+            font-size: 0.7rem;
+        }
+        
+        .artical {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .artical>div>p {
+            font-size: 12px;
+        }
+        
+        .post1>img {
+            width: 3.5rem;
+            height: 3.5rem;
+            border-radius: 50%;
+        }
+        
+        .post1 {
+            display: flex;
+            align-items: center;
+            margin-top: 1rem;
+            padding: 10px;
+            justify-content: space-between;
+            height: 3rem;
+            width: 100%;
+        }
+        
+        .post-left1>img {
+            height: 2rem;
+            width: 2rem;
+        }
+        
+        .post-left2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            margin-top: 2px;
+        }
+        
+        .post-left {
+            display: flex;
+            align-items: center;
+        }
+        
+        .post-right {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        
+        .span {
+            font-size: 12px;
+        }
+        
+        .span1 {
+            font-size: 10px;
+        }
+        
+        .span2 {
+            font-size: 8px;
+        }
+        
+        .post1-img>img {
+            width: 100%;
+            height: 80%;
+        }
+        
+        .post1-img>p {
+            overflow: hidden;
+            text-overflow: ellipsis;
+            margin: 5px;
+        }
+        
+        .comment-section {
+            display: flex;
+            justify-content: space-between;
+            margin: 1rem 1rem 1rem 1rem;
+        }
+        /* right sidebar */
+        
+        .right-sidebar>div {
+            border-radius: 0.5rem;
+            margin-bottom: 0.5rem;
+            background-color: #fff;
+        }
+        
+        .news>ul {
+            list-style: none;
+        }
+        
+        .news {
+            padding: 1rem;
+        }
+        
+        .news>ul>li>span {
+            font-size: 12px;
+            color: gray;
+        }
+        
+        .advetiesment>img {
+            width: 100%;
+            height: 100%;
+            border-radius: 0.5rem;
+        }
+        
+        .right-sidebar>.links {
+            background-color: lightgray;
+        }
+        
+        .links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 0.8rem;
+            padding: 1rem;
+            align-items: center;
+        }
+        
+        .links>a {
+            text-decoration: none;
+            font-size: 10px;
+            color: rgb(0, 0, .6);
+        }
+        
+        @media screen and (max-width: 1024px) {
+            main {
+                margin: 2rem 3rem 0;
+            }
+        }
+        
+        @media screen and (max-width: 768px) {
+            main {
+                margin: 2rem 1rem 0;
+            }
+            .right-sidebar {
+                display: none;
+            }
+            .left-sidebar {
+                width: 30%;
+            }
+            .middle-sidebar {
+                width: 65%;
+            }
+            nav>div>p {
+                display: none;
+            }
+            .left-nav>input {
+                display: none;
+            }
+            .fa-magnifying-glass {
+                opacity: 1;
+                margin-top: 0.8rem;
+            }
+            div>h6 {
+                display: none;
+            }
+            .logo-none {
+                display: none;
+            }
+        }
+        
+        @media screen and (max-width: 426px) {
+            main {
+                flex-direction: column;
+                margin: 2rem 0 0;
+            }
+            .left-sidebar {
+                width: 100%;
+            }
+            .middle-sidebar {
+                width: 100%;
+            }
+            .fa-magnifying-glass {
+                opacity: 1;
+            }
+        }
+        
+        @media screen and (max-width: 320px) {
+            .fa-bell,
+            .fa-comment-dots {
+                display: none;
+            }
+        }
