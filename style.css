@@ -30,7 +30,9 @@
         .fa-magnifying-glass {
             opacity: 0;
         }
-        
+         .fa-linkedin{
+                 margin-left: 2rem;
+         }
         .left-nav {
             display: flex;
         }
@@ -387,4 +389,7 @@
             .fa-comment-dots {
                 display: none;
             }
+         .fa-linkedin{
+                 margin-left: 0;         }
+                
         }
